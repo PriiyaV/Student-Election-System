@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "studentVote") or die (mysqli_error($con));
+$con = mysqli_connect("localhost", "root", "priyaV@7", "studentVote") or die (mysqli_error($con));
         
    echo '<br><h1><center>Student Election System</center></h1>';
    echo '<h3><center>Your details has successfully been Updated.</center></h3>';

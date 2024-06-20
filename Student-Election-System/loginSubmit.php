@@ -8,7 +8,7 @@ if(!isset($_SESSION))
 <?php
    define('DB_SERVER', 'localhost');
    define('DB_USERNAME', 'root');
-   define('DB_PASSWORD', '');
+   define('DB_PASSWORD', 'priyaV@7');
    define('DB_DATABASE', 'StudentVote');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);   
       $myusername = $_POST['uname'];

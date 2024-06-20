@@ -15,7 +15,7 @@ if(!isset($_SESSION['adminLoggedin']))
 <?php 
 
 
-$conn = mysqli_connect("localhost", "root", "", "studentVote") or die(mysqli_error($conn));
+$conn = mysqli_connect("localhost", "root", "priyaV@7", "studentVote") or die(mysqli_error($conn));
 $query = "Select id, name, email, voteCount FROM candidate";
 $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
 $totalRows = mysqli_num_rows($result);

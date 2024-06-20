@@ -7,7 +7,7 @@ session_start();
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "priyaV@7";
 $dbname = "studentVote";
 
 echo "<h1>Student Election System </h1>";

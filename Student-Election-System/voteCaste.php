@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$conn = mysqli_connect("localhost", "root", "","studentVote") or die(mysqli_error($conn));
+$conn = mysqli_connect("localhost", "root", "priyaV@7","studentVote") or die(mysqli_error($conn));
 $vid = $_SESSION['vid'];
 echo '<br><h1><center>Student Election System</center></h1>';
 echo "<div class='c1'>";

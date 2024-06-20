@@ -18,7 +18,7 @@ and open the template in the editor.
 <?php 
 //$id=$_GET['a'];
 $id = $_SESSION['vid'];
-$db = mysqli_connect("localhost","root","","StudentVote");
+$db = mysqli_connect("localhost","root","priyaV@7","StudentVote");
 $sql = "SELECT * FROM users WHERE id=$id";
 $result = mysqli_query($db,$sql);
 $row = mysqli_fetch_array($result,MYSQLI_ASSOC);

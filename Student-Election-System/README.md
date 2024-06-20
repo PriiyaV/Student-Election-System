@@ -4,7 +4,7 @@
 <li>Made with Web technologies (HTML, CSS, JS, Bootstrap and PHP).</li>
 <li>This is Student Voting System which can be used in Electing Student Leaders/ Student Representative in a class, president of students union etc. Here is a brief info about the project.</li>
 </ul>
-
+<p>You can see its <a href="https://student-election.herokuapp.com/">live demo deployed here</a></p>
 
 ## Roles:
 <ul>
@@ -35,6 +35,4 @@
  <li> Database setup - Create a database named 'StudentVote' (or of your choice) and import the file 'StudentVote.sql' given here in that.
 <li>Run Localhost and Enter the project folder name. The index page will start running.</li>
   </ul>
-  
-
-  
+ 
